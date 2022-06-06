@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18BA008A284E168600201FE2 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BA0089284E168600201FE2 /* alarm_sound.mp3 */; };
-		18BA0091284E17DB00201FE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA0090284E17DB00201FE2 /* ViewController.swift */; };
+		182960F0284E2CA300DFF47C /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 182960EF284E2CA300DFF47C /* alarm_sound.mp3 */; };
+		18B5C94C284E2F0E00514C11 /* ViewController 5.42.28 AM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5C94B284E2F0E00514C11 /* ViewController 5.42.28 AM.swift */; };
 		5F502ACA2848AA33004D303C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F502AC92848AA33004D303C /* AppDelegate.swift */; };
 		5F502ACC2848AA33004D303C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F502ACB2848AA33004D303C /* SceneDelegate.swift */; };
 		5F502AD12848AA33004D303C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F502ACF2848AA33004D303C /* Main.storyboard */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18BA0089284E168600201FE2 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = ../../../Asif_Project/EggTimer/EggTimer/alarm_sound.mp3; sourceTree = "<group>"; };
-		18BA0090284E17DB00201FE2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182960EF284E2CA300DFF47C /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		18B5C94B284E2F0E00514C11 /* ViewController 5.42.28 AM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController 5.42.28 AM.swift"; sourceTree = "<group>"; };
 		5F502AC62848AA33004D303C /* Egg Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F502AC92848AA33004D303C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F502ACB2848AA33004D303C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,20 +39,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18BA0088284E163500201FE2 /* alaram_sound */ = {
+		182960EE284E2C5900DFF47C /* alram sound */ = {
 			isa = PBXGroup;
 			children = (
-				18BA0089284E168600201FE2 /* alarm_sound.mp3 */,
+				182960EF284E2CA300DFF47C /* alarm_sound.mp3 */,
 			);
-			path = alaram_sound;
+			path = "alram sound";
 			sourceTree = "<group>";
 		};
-		18BA008F284E17B700201FE2 /* Conroller */ = {
+		18B5C94A284E2EF400514C11 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				18BA0090284E17DB00201FE2 /* ViewController.swift */,
+				18B5C94B284E2F0E00514C11 /* ViewController 5.42.28 AM.swift */,
 			);
-			path = Conroller;
+			path = controller;
 			sourceTree = "<group>";
 		};
 		5F502ABD2848AA33004D303C = {
@@ -74,12 +74,12 @@
 		5F502AC82848AA33004D303C /* Egg Timer */ = {
 			isa = PBXGroup;
 			children = (
-				18BA008F284E17B700201FE2 /* Conroller */,
+				18B5C94A284E2EF400514C11 /* controller */,
+				182960EE284E2C5900DFF47C /* alram sound */,
 				5F502AC92848AA33004D303C /* AppDelegate.swift */,
 				5F502ACB2848AA33004D303C /* SceneDelegate.swift */,
 				5F502ACF2848AA33004D303C /* Main.storyboard */,
 				5F502AD22848AA34004D303C /* Assets.xcassets */,
-				18BA0088284E163500201FE2 /* alaram_sound */,
 				5F502AD42848AA34004D303C /* LaunchScreen.storyboard */,
 				5F502AD72848AA34004D303C /* Info.plist */,
 			);
@@ -146,7 +146,7 @@
 			files = (
 				5F502AD62848AA34004D303C /* LaunchScreen.storyboard in Resources */,
 				5F502AD32848AA34004D303C /* Assets.xcassets in Resources */,
-				18BA008A284E168600201FE2 /* alarm_sound.mp3 in Resources */,
+				182960F0284E2CA300DFF47C /* alarm_sound.mp3 in Resources */,
 				5F502AD12848AA33004D303C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BA0091284E17DB00201FE2 /* ViewController.swift in Sources */,
+				18B5C94C284E2F0E00514C11 /* ViewController 5.42.28 AM.swift in Sources */,
 				5F502ACA2848AA33004D303C /* AppDelegate.swift in Sources */,
 				5F502ACC2848AA33004D303C /* SceneDelegate.swift in Sources */,
 			);
