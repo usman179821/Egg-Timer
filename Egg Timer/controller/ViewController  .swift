@@ -14,17 +14,13 @@ class ViewController: UIViewController {
     //Mark: - Outlets
     @IBOutlet weak var TitleBarLbl: UILabel!
     @IBOutlet weak var ProgressView: UIProgressView!
-    //Mark: - Dictionary and Array
+
     //MARK: - Variabes and propertiest
     let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 19]
     var timer = Timer()
     var player: AVAudioPlayer!
     var totalTime = 0
     var secondsPassed = 0
-//    let softTime = 5
-//    let mediumTime = 7
-//    let HardTime = 12
-//
 //Mark: - Action
     @IBAction func softSeletedBtn(_ sender: UIButton) {
         
@@ -38,7 +34,7 @@ class ViewController: UIViewController {
 //Mark: - timer code
         timer = Timer.scheduledTimer(timeInterval: 1.0, target:self, selector: #selector(updateTimer), userInfo:nil, repeats: true)
     }
-    
+    //MARK: - update timer
     @objc func updateTimer() {
         if secondsPassed < totalTime {
             secondsPassed += 1
