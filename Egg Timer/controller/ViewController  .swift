@@ -12,9 +12,10 @@ import AVFoundation
 class ViewController: UIViewController {
     
     //Mark: - Outlets
+    //Mark: - Outlets
     @IBOutlet weak var TitleBarLbl: UILabel!
     @IBOutlet weak var ProgressView: UIProgressView!
-    //MARK: - Variabes and propertiest
+
     //MARK: - Variabes and propertiest
     let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 7]
     var timer = Timer()
@@ -32,7 +33,7 @@ class ViewController: UIViewController {
         ProgressView.progress = 0.0
         secondsPassed = 0
         TitleBarLbl.text = hardness
-//Mark: - timer code
+//MARK: - Timer
         timer = Timer.scheduledTimer(timeInterval: 1.0, target:self, selector: #selector(updateTimer), userInfo:nil, repeats: true)
     }
     //MARK: - update timer
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
         } else {
             timer.invalidate()
             TitleBarLbl.text = "DONE!"
-//MARK: - Alarm code
+
             let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
             player = try! AVAudioPlayer(contentsOf: url!)
             player.play()
