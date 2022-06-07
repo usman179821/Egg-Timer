@@ -14,13 +14,14 @@ class ViewController: UIViewController {
     //Mark: - Outlets
     @IBOutlet weak var TitleBarLbl: UILabel!
     @IBOutlet weak var ProgressView: UIProgressView!
-
     //MARK: - Variabes and propertiest
-    let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 19]
+    //MARK: - Variabes and propertiest
+    let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 7]
     var timer = Timer()
     var player: AVAudioPlayer!
     var totalTime = 0
     var secondsPassed = 0
+    
 //Mark: - Action
     @IBAction func softSeletedBtn(_ sender: UIButton) {
         
@@ -43,7 +44,7 @@ class ViewController: UIViewController {
         } else {
             timer.invalidate()
             TitleBarLbl.text = "DONE!"
-
+//MARK: - Alarm code
             let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
             player = try! AVAudioPlayer(contentsOf: url!)
             player.play()
